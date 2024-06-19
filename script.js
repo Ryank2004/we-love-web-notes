@@ -10,11 +10,19 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!Array.isArray(json.data)) {
                 throw new Error('Verwacht een array als resultaat.');
             }
+
+            // Sorteer de data op ID van hoog naar laag
+            const sortedData = json.data.sort((a, b) => b.id - a.id);
+
             const container = document.querySelector('.blog-container');
-            json.data.forEach(post => {
+            sortedData.forEach(post => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 
+                const link = document.createElement('a');
+                link.href = `details.html?id=${post.id}`;
+                link.className = 'card-link';
+
                 const topContainer = document.createElement('div');
                 topContainer.className = 'top-container';
                 topContainer.style.backgroundColor = post.color;
@@ -25,13 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 bottomContainer.innerHTML = `
                     <div class="bottom-content">
                         <h2>${post.title}</h2>
-                        <p>${post.short_description}</p>
-                        <p>Datum</p>
+                        <p>${post.short_description || 'undefined'}</p>
+                        <p>${post.date || 'Datum'}</p>
                     </div>
                 `;
-                
-                card.appendChild(topContainer);
-                card.appendChild(bottomContainer);
+
+                link.appendChild(topContainer);
+                link.appendChild(bottomContainer);
+                card.appendChild(link);
                 container.appendChild(card);
             });
         })
@@ -39,8 +48,3 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Er was een probleem met de fetch-operatie:', error);
         });
 });
-
-function showContent(content) {
-    alert(content);  // Hier kun je een modal of een nieuwe pagina weergeven met de uitgebreide content
-}
-

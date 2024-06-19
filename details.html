@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Pagina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1>WE ♥ WEB</h1>
+    </header>
+    <div id="details-container"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const postId = params.get('id');
+
+            fetch('data.json')
+                .then(response => response.json())
+                .then(json => {
+                    const post = json.data.find(item => item.id === postId);
+                    if (post) {
+                        const container = document.getElementById('details-container');
+                        container.innerHTML = `
+                                    <div class="details-content">
+                                        <h2>${post.title}</h2>
+                                        <p>${post.date}</p>
+                                        <p>${post.description}</p>
+                                    </div>
+                                    <a href="/" class="close-button"><span class="material-symbols-outlined">close</span></a>
+                        `;
+                    } else {
+                        document.getElementById('details-container').innerHTML = '<p>Post niet gevonden</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Er was een probleem met de fetch-operatie:', error);
+                });
+        });
+    </script>
+</body>
+</html>

@@ -1,66 +1,85 @@
 {
     "data": [
       {   
-        "id": "1",
+        "id": "5",
         "title": "Fenna de Wilde",
         "color": "#3498db",
         "emoji": "📱",
         "short_description": "Over haar projecten en werk",
-        "date": "",
-        "description": ""
+        "date": "19/01/2024",
+        "description": "Fenna de Wilde is een creative content developer en ze is nu al twee jaar werkzaam bij Bakken & Baeck. Hiervoor had je bij Build and Amsterdam gewerkt en dat was meer e-commerce. In totaal is ze al 4.5 jaar werkzaam in de wereld van frontend en design.\nTijdens de we-love-web liet ze meerdere sites zien waar zij aan had gewerkt. Er was zelfs een site bij die genomineerd was als website van het jaar.\nZe had recentelijk ook aan een crypto website gewerkt waarbij ze de branding van crypto zelf wilde veranderen. De website heet Phantom en zij wilden de site vriendelijker eruit laten zien. Zwart kan namelijk mensen afschrikken die niks begrijpen van cryptocurrency.\nIn het bedrijfsleven weten vrij weinig mensen af van toegankelijkheid. Dit moet eigenlijk wel zo zijn. Als een website niet voor iedereen toegankelijk is, dan heb je er niks aan. Een website gaat vooral over bruikbaarheid en gaat om de gebruiker.\nToegankelijkheidsrichtlijnen. Focus state voor keyboard gebruikers: Niet alle gebruikers bedienen een interface met een muis. Je kunt dan een focus state toevoegen door een :focus-visible te gebruiken.\nAria attributes: Ze geven aanvullende informatie aan hulptechnologieen over het gedrag en de structuur van je code.\nAria controls: Als een element het andere element controleert. Het element dat wordt gecontroleerd krijgt een id en het andere krijgt een aria-controls.\nZorg ervoor dat je carrousels ook toegankelijk zijn. Dit is vrij lastig als je bijvoorbeeld erdoorheen wil tabben. De carrousels moeten een role=“group” hebben.\nVermijd het gebruik van li elementen voor je slides. Als je slides verbergt, zal het aangekondigde aantal li-items niet overeenkomen met het werkelijke aantal slides.\nEr zijn dus veel verschillende toegankelijkheidsprincipes in code waar rekening mee gehouden moet worden. Dit kan uiteindelijk, wanneer dit goed uitgevoerd is, gecontroleerd worden aan de hand van toegankelijkheidstesten en als er nog iets mist kan dit in een iteratie nog aangepast worden."
       },
       {   
         "id": "2",
         "title": "Ischa Gast",
-        "color": "#e74c3c",
+        "color": "#FF6D3F",
         "emoji": "🔥",
-        "short-description": "",
-        "date": "",
-        "description": ""
-      },
-      {   
-        "id": "3",
-        "title": "Julia Miocene",
-        "color": "#8e44ad",
-        "emoji": "🌸",
-        "short-description": "",
-        "date": "",
-        "description": ""
+        "short_description": "Over toegankelijkheid",
+        "date": "20/10/2023",
+        "description": "Ischa vertelde zijn verhaal zeer duidelijk. Hij is werkzaam bij Schiphol en hij richt zich vooral op toegankelijkheid. Hij toonde ons bijvoorbeeld meerdere voorbeelden uit het dagelijks leven waar rekening is gehouden met dit onderwerp. Zo liet hij zien dat er een liedje van Rihanna op tv volledig was vertaald in gebarentaal, zodat doven of slechthorenden ook het liedje konden 'beluisteren'. Ook had hij een voorbeeld bij het zicht van een metrostation. Hij vertelde echter ook dat er vaak exclusie plaatsvindt voor mensen die beperkt zijn (en volgens hem is iedereen wel op een bepaalde manier beperkt in iets, want je kan bijvoorbeeld wel een tv show horen in een ideale omgeving maar niet met veel achtergrondgeluid, dus dan ben je afhankelijk van ondertiteling). Zelfs de meest gebruikte site (Google) is niet volledig toegankelijk, wat best wel dramatisch is. Zo zie je dat er op internationaal gebied niet voldoende wordt gelet op toegankelijkheid in websites (maar dus ook in het echte leven). Ischa liet dit weer zien aan de hand van een voorbeeld. Op de site van Hema was er bijvoorbeeld een link niet goed gedefineerd, waardoor mensen die blind zijn niet kunnen begrijpen waar de link naar leidt. Hij gaf ook een voorbeeld uit het dagelijks leven van een vorm van exclusie op zijn werk. Op Schiphol zijn er namelijk uitlegpalen met geluid, maar dit is natuurlijk niet toegankelijk voor mensen die doof zijn. Als laatste punt zei hij nog dat bepaalde kleuren ook voor ontoegankelijkheid kan zorgen (wat ook besproken is in een workshop op de opleiding over kleurtheorie). Bepaalde kleuren kunnen er bijvoorbeeld voor zorgen dat iets minder of juist meer zichtbaar is."
       },
       {   
         "id": "4",
-        "title": "Simon Riisnæs Dagfinrud",
-        "color": "#2ecc71",
-        "emoji": "🔋",
-        "short-description": "",
-        "date": "",
-        "description": ""
+        "title": "Julia Miocene",
+        "color": "#8e44ad",
+        "emoji": "🌸",
+        "short_description": "CSS animaties",
+        "date": "15/12/2023",
+        "description": "Julia Miocene vertelde in haar we-love-web over css en zij liet een paar animaties zien die zij gemaakt had. Zij vertelde dat in 1996 werd CSS geïntroduceerd en tijdens haar presentatie deelde ze inzichten over de evolutie van animaties, van de eerste animatie in 1900 tot de eerste CSS-geanimeerde creatie in 1996. Deze historische ontwikkeling inspireerde haar om zich te verdiepen in CSS-animaties. Julia staat bekend om het creëren van boeiende CSS-animaties met alleen HTML en CSS. Haar uitdaging is om steeds meer karakter en levendigheid toe te voegen aan animaties en cartoons. De animaties die ze deelde waren van zowel van andere makers als van haarzelf, die ze op CodePen had gemaakt. Haar motivatie? Het leren van nieuwe dingen, het proberen van nieuwe technieken, plezier hebben, burn-out voorkomen, vaardigheden ontwikkelen in verwante gebieden, deel uitmaken van een creatieve gemeenschap en bijdragen aan de vooruitgang van technologie. Voor degenen die geïnteresseerd waren in het starten met CSS-animaties, raadde ze bronnen aan zoals Codepen.io/challenges, Cssbattle.dev, en 100daysCSS.com."
       },
       {   
-        "id": "5",
+        "id": "6",
+        "title": "Simon Riisnæs Dagfinrud",
+        "color": "#FF563F",
+        "emoji": "🎨",
+        "short_description": "Graphic design",
+        "date": "16/02/2024",
+        "description": "Tijdens zijn presentatie liet hij zijn werken op een interessante manier zien. Hij begon met het laten zien van het Logo van Noko en dit logo ging telkens tegen de zijkant van het scherm aan wat een cool effect gaf. Hij legde hierna uit wat 'computational design' inhield en hij vertelde dat het te maken heeft met het creatieve denken dat ondersteund wordt door het gebruik van een computer. Computeralgoritmen worden aldus gebruikt om ontwerp- en creatieve processen te ondersteunen, te verbeteren of zelfs te vervangen. Je gaat werkt hierbij met een wijdere set aan oplossingen op een probleem. Verder gaf hij nog wat tips over hoe je goede posters kan maken. Hoe kan je ze bijvoorbeeld aantrekkelijk maken aan de hand van aanlokkende teksten. Je hoefde volgens hem tevens niet te specialiseren in het maken van posters. Iedereen zou het kunnen leren. Maak ook gebruik van je eigen referenties en wees een beetje gek en creatief. Zo maak je de posters aantrekkelijker voor je medemens."
+      },
+      {   
+        "id": "1",
         "title": "Tim borst",
-        "color": "#2ecc71",
-        "emoji": "🔋",
-        "short-description": "",
-        "date": "",
-        "description": ""
+        "color": "#FE2929",
+        "emoji": "🧲",
+        "short_description": "Over zijn werk en ervaring",
+        "date": "06/10/2023",
+        "description": "Tim is een fanatieke frontender met een enorm doorzettingsvermogen. Nadat hij met enige vertraging eindelijk de studie CMD had afgerond op de HvA begon hij zijn eigen bedrijf. Hij huurde een studio in Amsterdam af voor een prikkie en zodoende ging hij met een vriend aan de slag. Ze begonnen dus klein en ze namen elke klus aan, maar uiteindelijk groeide hun bedrijf uit naar verschillende plekken en het aantal werknemers breidde uit. Uiteindelijk gingen ze zelfs werken een bedrijf als Audi. Tim benadrukte dat het altijd belangrijk is om je financien bij te houden en om op tijd de offertes te sturen. Op deze manier liep je niet achter op je eigen werk. In 2019 verliet hij het bedrijf dat hij mede had opgericht om weer zelfstandig aan de slag te gaan. Later bleek dat hij misschien wel een beetje spijt had van deze keuze."
       },
       {
-        "id": "6",
+        "id": "3",
         "title": "Yolijn van der Kolk",
         "color": "#2ecc71",
         "emoji": "🔋",
-        "short-description": "",
-        "date": "",
-        "description": ""
+        "short_description": "Design system",
+        "date": "24/11/2024",
+        "description": "Het Design System omvat richtlijnen, teksten, en gedeelde inzichten uit gebruikersonderzoek. Er wordt benadrukt om te controleren of aannames correct zijn, mogelijke omissies te identificeren en peer-reviewed te werk te gaan. Het gebruikersonderzoek wordt uitgevoerd via Gebruikersonderzoeken.nl. De patronen zijn goed getest. Deze gebruikerstesten zijn namelijk ook goed onderzocht op toegankelijkheid. Denk aan contrast en kleurenblindheid of mensen die niet goed zijn in scrollen. Er wordt onderzoek gedaan naar wat werkt voor de gebruikers. Het ideale designsystem omvat ook goede foutmeldingen. Er werd in de presentatie verwezen naar Sanoma learning.design.nl en het ING Design System als voorbeelden van goed ontworpen systemen. Het NL Design System is een overheidsbreed initiatief met meer dan 600 leden. Het benadrukt de samenwerking tussen overheidsorganisaties, gemeenten zoals Amsterdam en Den Haag, en leveranciers. Het doel is om gezamenlijk aan een designsystem te bouwen. Ze werken met een estafettemodel, waarbij een component of richtlijn een bepaalde status kan hebben totdat deze wordt opgepakt door iemand uit de community. Er wordt ook aandacht besteed aan open source en het delen van kennis binnen de community. Het estafettemodel wordt ook toegepast op het gebied van help wanted, community, en het identificeren van kandidaten voor bijvoorbeeld het aanpassen van knoppen op gemeentelijk niveau. Een ander belangrijk aspect bij design systems is het gebruik van Storybook, waarin een component binnen een logo kan worden aangepast. De technologiestack omvat CSS-componenten met voorspelbare namen, design tokens in JSON, webcomponents waar mogelijk, framework-componenten waar handig, en documentatie in markdown. Er wordt gebruik gemaakt van design tokens om consistentie te behouden in huisstijl, algemene aspecten en componenten. Er wordt benadrukt dat design tokens een bron van waarheid zijn voor zowel code als design, en dit wordt ondersteund door Style Dictionary. Bepaalde aspecten, zoals proprietary (eigendomsrechtelijk) materiaal, zijn uitgesloten van de EUPL-licentie. Er wordt ook aandacht besteed aan het ondersteunen van Right-to-Left-separators en het uitvoeren van visuele regressietests met behulp van Storybook voor ontwikkelaars."
       },
       {
         "id": "7",
-        "title": "Justus",
-        "color": "#2ecc71",
-        "emoji": "🔋",
-        "short-description": "",
-        "date": "",
-        "description": ""
+        "title": "Justus Sturkenboom",
+        "color": "#409223",
+        "emoji": "🌳",
+        "short_description": "Digital gardening",
+        "date": "15/03/2024",
+        "description": "Het concept digital gardening is gebaseerd op een metafoor, namelijk een tuin. Een tuin is namelijk dynamisch en er valt altijd wel aan te werken. Er groeien planten die weer geknipt moeten worden of er is viezigheid op de grond, ga zo maar door. Justus gebruikt dit als metafoor om uit te leggen dat dit in de digitale wereld ook zo werkt. Je bent namelijk constant bezig met nieuwe inzichten opwekken, je krijgt nieuwe ideeen en je verwerkt steeds nieuwe informatie dat zich ook voortborduurt op elkaar. De 'tuin' is dus als het ware de plek waar je alle informatie bewaart en opslaat. Tevens werkt je deze info steeds bij doordat je nieuwe kennis vergaart. Jouw fysieke tuin maak je ook steeds beter en mooier en het blijft een voortdurend proces.<br>Justus vertelde ook over een concept genaamd: The Stream. Dit houdt in dat er op dagelijkse basis een constante stroom van informatie op ons afkomt als sociale media gebruikers. Het is als een eindeloze stroom van updates, nieuwsberichten en meningen die voortdurend voorbijkomen en waar je snel doorheen moet navigeren om bij te blijven. Dit heeft effect op de daadwerkelijke vrijheid die je hebt in het gebruiken van het web. Zeker na de opkomst van algoritmen kan men geisoleerd worden van wat voor hen niet belangrijk of irrelevant is. Eigenlijk wordt er dus per persoon bepaalde informatie verwijderd of niet getoond op basis van een inschatting van wat iemand leuk vindt. Algoritmen zijn echter wel handige tools om je te helpen met het navigeren door grote hoeveelheden data."
+    },
+    {
+      "id": "8",
+      "title": "Gwen Bogaert",
+      "color": "#FDB62B",
+      "emoji": "🧑🏻‍💻",
+      "short_description": "Leren tijdens het programmeren",
+      "date": "26/04/2024",
+      "description": ""
+    },
+    {
+      "id": "9",
+      "title": "Sanne Swagerman",
+      "color": "#C0E8FF",
+      "emoji": "💭",
+      "short_description": "Wat is jouw droombaan?",
+      "date": "24/05/2024",
+      "description": "Ze heeft gewerkt bij Q42 en dat gaat over Rijksmuseum en Naturalis. Hierna is ze bij Spotify gaan werken. Wat vind je leuk? Ui bouwen Design systems - bouwstenen die helpen om delen van het product gestructureerd te houden Prototypes Internal tooling. Wat vind je belangrijk? Grootte Wil je remote werken Soort bedrijf? (Agency, big tech). Baan zoeken. Het voelde soms onmogelijk om binnen te komen en hoe kom je tussen al die slimme mensen? Het is echter wel haalbaar en het scheelt als je weet wat je belangrijk vindt in een baan. Welk product gebruik ik graag? Job page van bedrijven zelf Goede cv!! Dit is de eerste indruk die je geeft. Je kan ook de cv aanpassen per sollicitatie die je doet. Solliciteren; solliciteer bij meerdere bedrijven, want soms zijn er veel mensen die solliciteren voor dezelfde baan. Het is handig om een gericht lijstje te hebben zodat jouw wensen overeenkomen met wat het bedrijf kan bieden. Interviews naar agencies. Cv screening Gesprek om ervaring en baan te bespreken Thuis programmeeropdracht Stel zelf vragen en wees nieuwsgierig. Remember je moet ook vragen wat zij JOU kunnen bieden. Soms laatste ronde, bijvoorbeeld meeloopdag. Klikt het een beetje met de mensen? Vind je de werkplek leuk? Interviews —> big tech. Cv screening Gesprek om ervaring en baan te bespreken Live coding interview. Dit is erg spannend, maar deze vorm van interviews komen vaak voor dus je kan er als het ware zelfs voor studeren. Laatste ronde: 3/4 live coding interviews, system design, behaverial interviews Veel animo, dus het ligt niet aan jou. Voorbereiding: neem de code die je meeneemt nog even heel goed door. Voor de programmeer live opdracht weet je niet wat ze gaan vragen dus daar kan je je niet zo goed voor voorbereiden. Je eerste baan.Aanbod Impostor syndrome Wat is productief zijn? Vooral heel veel code typen? Uitzoeken wat er gebouwd moet worden? NEEM DE TIJD, want als je steeds doorgaat en je weet niet of het eigenlijk wel goed is, dan ben je misschien juist minder productief. Tegenslagen. Zorg dat je tegenslagen niet afgestraft worden, maar dat je in een chille omgeving bent. Zo word je niet gedemotiveerd. Misschien vind je een project niet altijd even leuk maar is het echt een dealbreaker??"
     }
-]}
+  ]
+}
